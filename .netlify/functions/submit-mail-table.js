@@ -1,17 +1,6 @@
 // Truly dynamic order submission - accepts ANY form fields
 const nodemailer = require('nodemailer');
 
-// Optional: Import Supabase handler (only if you're using it)
-let saveToSupabase = null;
-try {
-  if (process.env.ENABLE_SUPABASE === 'true') {
-    const supabaseModule = require('./supabase');
-    saveToSupabase = supabaseModule.saveToSupabase;
-  }
-} catch (error) {
-  console.log('Supabase module not loaded - skipping database integration');
-}
-
 // Configuration
 const ALLOWED_ORIGINS = [
   'https://laptopciti.netlify.app',
