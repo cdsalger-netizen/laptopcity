@@ -14,7 +14,7 @@ try {
 
 // Configuration
 const ALLOWED_ORIGINS = [
-  'https://formdz.netlify.app',
+  'https://laptopciti.netlify.app',
   'http://localhost:3000',
   'null'
 ];
