@@ -1,0 +1,9 @@
+{
+  "name": "order-form",
+  "version": "1.0.0",
+  "description": "Order form with Gmail notifications",
+  "dependencies": {
+    "nodemailer": "^6.9.7",
+    "node-fetch": "^2.7.0"
+  }
+}
