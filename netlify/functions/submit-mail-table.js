@@ -546,10 +546,7 @@ exports.handler = async (event) => {
     // Send Telegram notification
     await sendTelegramNotification(orderId, clientName);
 
-    // Save to Supabase (only if enabled)
-    if (saveToSupabase) {
-      await saveToSupabase(orderId, sanitizedData, clientIp);
-    }
+    
 
     // Success response
     return {
