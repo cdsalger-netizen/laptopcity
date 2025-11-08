@@ -10,7 +10,7 @@
     // CONFIGURATION
     // ============================================
     const CONFIG = {
-        UNIT_PRICE: 8500,
+        UNIT_PRICE: 58500,
         QUANTITY_MIN: 1,
         QUANTITY_MAX: 10,
         SWIPE_THRESHOLD: 50,
